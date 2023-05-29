@@ -11,9 +11,9 @@ spring:
           enabled: true
       routes:
         - id: api-movie
-          uri: lb://api-movies
+          uri: lb://api-movie
           predicates:
-            - Path=/api/v1/movie/**
+            - Path=/api/v1/movies/**
         - id: api-catalog
           uri: lb://api-catalog
           predicates:
