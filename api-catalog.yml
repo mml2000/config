@@ -3,6 +3,10 @@ server:
 spring:
   application:
     name: api-catalog
+  data:
+    mongodb:
+      database: test
+      port: 27017  
 
 eureka:
    healthcheck:
