@@ -33,7 +33,7 @@ resilience4j:
         retrySaveSerie:
           base-config: default
           max-retry-attempts: 5
-          wait-duration: 2s
+          wait-duration: 200s
           retry-exceptions:
             - java.net.ConnectException
         retrySaveMovie:
